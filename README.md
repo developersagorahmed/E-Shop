@@ -2,7 +2,7 @@
 
 <p align="center">
   
-  <img src="./src/assets/logo.png" width="350" alt="accessibility text">
+  <img src="./src/assets/pngwing.com.png" width="350" alt="accessibility text">
 </p>
 
 
