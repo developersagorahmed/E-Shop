@@ -6,6 +6,7 @@ import Reginster from "../Login/Reginster";
 import Detaiils from "../Home/Details/Detaiils";
 import Payment from "../Payment/Payment";
 import Detailss from "../Detailss/Detailss";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
 	{
@@ -26,7 +27,11 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: "/details",
-				element: <Detaiils></Detaiils>,
+				element: (
+					<PrivateRoute>
+						<Detaiils></Detaiils>
+					</PrivateRoute>
+				),
 			},
 			{
 				path: "/pay",
